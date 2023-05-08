@@ -1,4 +1,5 @@
 
+
 # Personality-Prediction-Through-CV
 A system that predict the personality of a person with OCEAN values and resume.
 
@@ -34,6 +35,15 @@ The Big Five Personality Traits Model measures five key dimensions of people's p
 - nltk
 - scaPy
 
+
+## Software Requirements
+
+- Operating System : Mac OS
+- Coding Language : Python
+- Tool : Jupyter Notebook
+- Front End : HTML,CSS
+- Back End : Python Server
+- Web Server : tkinter
 
 ## Description
 The system built in this project predicts personality of peoples by using their gender, age, score of openness, conscientiousness, extraversion, agreeableness, neuroticism and experience. It parses all the data from CV/resume and on the result page, it shows all the information from the entered data and uploaded resume. This system uses logistic regression for training the model and pyresparser module for parsing the information from resume which is built using nltk and spaCy module in python.
