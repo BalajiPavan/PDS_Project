@@ -85,5 +85,6 @@ PY RES PARSER
 .Extract designation
 
 #Code
+
 data = ResumeParser(cv_path).get_extracted_data()  by using this we can extract the data from resumeparser.
 Extract company names
