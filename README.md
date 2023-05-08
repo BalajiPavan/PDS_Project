@@ -26,4 +26,5 @@ PY RES PARSER
 
 -----#Code-----
 
+
 data = ResumeParser(cv_path).get_extracted_data()  by using this we can extract the data from resumeparser.
