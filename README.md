@@ -34,6 +34,15 @@ The Big Five Personality Traits Model measures five key dimensions of people's p
 - nltk
 - scaPy
 
+##Software Requirements
+
+- Operating System : Windows
+- Coding Language : Python
+- Tool : Jupyter Notebook
+- Front End : HTML , CSS
+- Back End : Python Server
+- Web Server : Tkinter
+
 
 ## Description
 The system built in this project predicts personality of peoples by using their gender, age, score of openness, conscientiousness, extraversion, agreeableness, neuroticism and experience. It parses all the data from CV/resume and on the result page, it shows all the information from the entered data and uploaded resume. This system uses logistic regression for training the model and pyresparser module for parsing the information from resume which is built using nltk and spaCy module in python.
@@ -62,39 +71,3 @@ test method: It predict the personality of a person by passing an array of value
 - ### check_type method
 
 >It converts various strings and numbers into desired format and converts lists and tuples in string. 
-
-
-
-
-
-
-
-----------MY CONTRIBUTION TO THE PROJECT----------
-
---> I have done the data analysis and data visualization coding part. I have used matplotlib for visualization and pyplot for plotting the graphs(For this i will include a separate file in the source_code folder and the file name is "Exploratory_Data_Analysis").
-
---> I have also done everything that is related to pyresparser and resumeparser coding part.
-
-PY RES PARSER
-
-.Extract name
-
-.Extract email
-
-.Extract mobile numbers
-
-.Extract skills
-
-.Extract total experience
-
-.Extract college name
-
-.Extract degree
-
-.Extract designation
-
-
-
------#Code-----
-
-data = ResumeParser(cv_path).get_extracted_data()  by using this we can extract the data from resumeparser.
